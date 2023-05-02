@@ -1,0 +1,66 @@
+.navbar{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    background: black;
+    align-items: center;
+    margin-left: 2.5%;
+    padding-top: 10px;
+    border-radius: 8px;
+    position: fixed;
+}
+.left{
+    width: 40%;
+}
+.left h1{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 700;
+    color: bisque;
+    padding: 20px;
+}
+.right{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.right a{
+    text-decoration: none;
+    height:30px;
+    padding: 5px 20px;
+    color: beige;
+}
+.right a:hover{
+    background: cyan;
+    height: 20px;
+    border-radius: 5px;
+    
+}
+.landing{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.image{
+    width: 50%;
+}
+.image img{
+    padding-top: 30px;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.text{
+    width: 50%;
+}
+.text h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-top: 250px;
+    padding-left: 50px;
+}
